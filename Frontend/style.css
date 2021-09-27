@@ -1,0 +1,75 @@
+body{
+  font-family: "Roboto", sans-serif;
+}
+.main-div {
+  text-align: center;
+  background-color: rgba(179, 226, 253, 0.815);
+}
+.main-div h1{
+  font-style: italic;
+}
+.input-div{
+  display:flex;
+  justify-content: center;
+}
+.input-div button {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(84, 201, 84);
+  margin-top:50px;
+  height: 35px;
+  padding:10px;
+  margin-left: 10px;
+  border:none;
+  border-radius: 5px;
+  color: black;
+}
+.top-input{
+  display:flex;
+  justify-content: center;
+}
+.left-info{
+  margin-right:20px;
+}
+.right-info{
+  margin-right:-5px;
+}
+
+.input-div input{
+  border:none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+}
+#summa{
+  margin-top:10px;
+  margin-left:385px;
+}
+#content-page {
+  text-align: center;
+  
+  background-color: rgba(179, 226, 253, 0.815);
+  
+}
+#container{
+  width: 50%;
+  margin: 0 auto;
+  margin-left:400px;
+  text-align: left;
+}
+#purchase {
+  display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-auto-rows: minmax(5px, auto);
+   
+}
+
+#purchase-text {
+  font-size: 20px;
+  font-weight: 800;
+  overflow: hidden;
+}
+
+#img {
+  width: 20px;
+  height: 40px;
+}
